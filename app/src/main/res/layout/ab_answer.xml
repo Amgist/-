@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/pro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="300dp"
+        android:layout_marginRight="300dp"
+        android:layout_marginBottom="532dp"
+        android:text="蓬莱"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#20b2aa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.613"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="377dp"
+        android:layout_height="592dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="205dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="507dp"
+        android:text="      蓬莱自古就被誉为“人间仙境”。神话中渤海里仙人居住的三座神山之一(另两座为“方丈”、“瀛洲”)。元者，本也。始者，初也，先天之气也。此气化为开辟世界之人，即为盘古；化为主持天界之祖；即为元始。盘古将身一伸，天即渐高，地便坠下。而天地更有相连者，左手执凿，右手持斧，或用斧劈，或以凿开。自是神力，久而天地乃分。二气升降，清者上为天，浊者下为地，自是混沌开矣。天地即开，盘古力竭，乃死。又生二神，阴阳所化，男曰伏羲，女唤女娲，兄妹也，皆为人首蛇身。
+　　开天辟地，然天地无色，杳无生机，伏羲女娲居其中，甚闲，伏羲怒，劈手于大地之上划沟壑，乃成江河，奔流向东，成东海。堆沟壑之土成五岳七山，天地之间便有山川河流，日月星晨，若出其中。
+　　山川即成，却无生息，女娲甚聊，遂搏，黄土作之。后力不暇供，乃引绳于泥中，举以为生。天地之间遂有五仙五虫，天，仙者，黄土为之也；人鬼妖者，引绳为之也。此乃乾坤肇始，万物之由来。仙者自清，独人鬼妖者不平，亦欲成仙，乃有天劫。
+　　日月更迭，斗转星移，岁万载，尘世间人鬼妖甚嚣，不平，言：吾等皆女娲所造，为何独仙者居于天上，不生不死而吾等却要饱受轮回之苦？天界日久，亦有沉沦者，枉为仙，仙言：人间若有德善之人，可寻至蓬莱，修成大道者亦可成仙。此语既出，在人间便引起轩然大波，人、鬼、妖无不励精修法，以期有日得证大道。正所谓是：人间有仙境，得道在蓬莱。是也。"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#20b2aa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.163" />
+
+</android.support.constraint.ConstraintLayout>

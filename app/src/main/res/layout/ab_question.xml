@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Y_QA.QuestionActivity">
+    <Button
+        android:id="@+id/back"
+        android:layout_width="49dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:drawable/ic_menu_revert"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.example.administrator.read.Y_Utils.XTextView
+            android:id="@+id/xtv"
+            android:layout_width="match_parent"
+            android:layout_height="371dp"
+            app:textColor="#ffffff"
+            app:textContent=" "
+            app:textSize="20sp"
+            app:textSpacingAdd="0.0"
+            app:textSpacingMult="1.5"
+            app:textXAlignment="normal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/ch1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:text="推荐功能" />
+
+            <Button
+                android:id="@+id/ch2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:text="定位功能" />
+
+            <Button
+                android:id="@+id/ch3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:text="个人信息" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
